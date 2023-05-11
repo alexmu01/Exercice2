@@ -15,7 +15,7 @@ fi'''
 
     stage('find_files') {
       steps {
-        sh 'sudo find / -user jenkins '
+        sh 'sudo find /var/lib -user jenkins '
       }
     }
 
