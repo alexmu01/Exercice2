@@ -21,7 +21,7 @@ fi'''
 
     stage('list_files') {
       steps {
-        sh 'sudo ls -li /jenkins'
+        sh 'sudo ls -li /home/jenkins'
       }
     }
 
