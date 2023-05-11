@@ -15,7 +15,7 @@ fi'''
 
     stage('find_files') {
       steps {
-        sh 'find -user jenkins /'
+        sh 'find / -user jenkins > /tmp/file-jenkins'
       }
     }
 
